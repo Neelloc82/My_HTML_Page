@@ -1,35 +1,50 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
-    <link rel="stylesheet" href="CSS/My_Page.css"/>
-    <style type="text/css">
- <meta charset="UTF-8">
- <title>Activity 1: Basic HTML Bio</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="My_Page.css">
 </head>
 
-<h1>
- <meta charsets="UTF-8"
- <title>Colleen M Anderson</title>
-</h1>
-<br>
 <body>
 
- <img src="https://via.placeholder.com/150" alt="Colleen M Anderson Image">
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
- <p> THIS IS PARAGRAPH 1:  ALL ABOUT ME!</p>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Colleen M. Anderson</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mauris non metus condimentum, 
+        vitae pellentesque lectus bibendum. Vivamus sed venenatis turpis. Donec vehicula faucibus tortor, eget vestibulum arcu facilisis ac. 
+        Donec eu imperdiet sapien. Morbi sed venenatis nisl. Vivamus id nisi quis nisi suscipit 
+        pulvinar. Nam leo eros, sodales ac rutrum et, tempor eu est. Aenean aliquam vehicula bibendum. Duis congue luctus ex nec ornare.</p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mauris non metus condimentum, vitae pellentesque lectus bibendum. 
+          Vivamus sed venenatis turpis. Donec vehicula faucibus tortor, eget vestibulum arcu facilisis ac. Donec eu imperdiet sapien. Morbi sed venenatis nisl. 
+          Vivamus id nisi quis nisi suscipitpulvinar. Nam leo eros, sodales ac rutrum et, tempor eu est. Aenean aliquam vehicula bibendum. 
+          Duis congue luctus ex nec ornare.</p>
+          
+    </section>
 
- <p> THIS IS PARAGRAPH 2:  ALL ABOUT ME SOME MORE!</p>
- <br>
- <hr>
-
- <h2>Reach out on Social Media!</h2>
-   <ol>
-       <!--<li><a href="https://www.linkedin.com/in/patrick-hreha-32771032" target="_blank">LinkedIN</a></li>-->
-       <!--<li><a href="https://twitter.com/phreha" target="_blank">Twitter</a></li>-->
-       <li><a href="https://www.facebook.com/colleen.anderson.399" target="_blank">Facebook</a></li></li>
-       <br>
-       <hr>
-<h3>See an overview of my projects <a href="Projects/Bee Project/Bee_Project_html.html" target="_blank">HERE!</a> </h3>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">neellocm1982@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">neelloc82</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
 
